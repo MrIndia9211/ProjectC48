@@ -249,6 +249,9 @@ function cor() {
     if(score>100){
         cor.velocityX = -8 
     }
+    if(score>150){
+        cor.velocityX = -10 
+    }
     
 
 }
